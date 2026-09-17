@@ -8,3 +8,7 @@
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 price = float(input())
 is_member = int(input())
+if is_member == 1 :
+   print ("ราคาสุทธิ :" ,(price*90/100))
+elif is_member == 0 :
+   print ("ราคาสุทธิ :" , (price))
