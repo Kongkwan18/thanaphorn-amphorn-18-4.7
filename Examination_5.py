@@ -8,3 +8,9 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 bmi = float(input())
+if bmi >= 23 :
+   print ("overweight")
+elif bmi >= 18.5 :
+   print ("normal")
+else :
+   print ("underweight")
